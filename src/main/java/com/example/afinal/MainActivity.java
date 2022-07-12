@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity {
                             currLoc = task.getResult();
                             lat = currLoc.getLatitude();
                             lng = currLoc.getLongitude();
-                            //to avoid the async problem therefore call next function here
+                            //to avoid the problem therefore call next function here
                             setURL();
                         } else {
                             getLocationPermission();
